@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShieldGuard | Cyber Security Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">Shield<span>Guard</span></div>
+            <div class="demo-badge">Demo Version</div>
+            <ul class="nav-menu">
+                <li><a href="#" class="active" onclick="switchTab('dashboard')">Dashboard Home</a></li>
+                <li><a href="#" onclick="switchTab('scanner')">Threat Scanner</a></li>
+                <li><a href="#" onclick="showModal('Info', 'This is a demo. Navigation is simulated.', false, 'status-info')">Settings</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="topbar">
+                <h2>Security Overview</h2>
+                <div class="user-profile">Demo User</div>
+            </header>
+
+            <div class="disclaimer-banner">
+                <strong>Notice:</strong> This is a demonstration dashboard. Detection logic uses predefined safe samples and keyword matching, not a live machine learning engine.
+            </div>
+
+            <!-- Stats Row -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Scans Today</h3>
+                    <div class="stat-value">24</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Threats Blocked</h3>
+                    <div class="stat-value text-danger">3</div>
+                </div>
+                <div class="stat-card">
+                    <h3>System Status</h3>
+                    <div class="stat-value text-success">Secure</div>
+                </div>
+            </div>
+
+            <!-- Scanner Section -->
+            <div class="detection-grid" id="scannerSection">
+                <!-- Text Analyzer Card -->
+                <div class="card">
+                    <h2>Fake SMS, URL & Gmail Scanner</h2>
+                    <p class="subtitle">Check links, emails, or SMS messages for phishing threats.</p>
+                    <div class="input-group">
+                        <textarea id="textInput" placeholder="Paste a link, email text, or SMS message here..." rows="5"></textarea>
+                    </div>
+                    <div class="button-group">
+                        <button class="btn primary-btn" onclick="analyzeText()">Run Analysis</button>
+                        <button class="btn secondary-btn" onclick="loadSampleText()">Load Sample Phishing URL</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Custom Modal for Alerts -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Analysis Result</h3>
+            <p id="modalMessage">The uploaded document is authentic.</p>
+            <button class="btn primary-btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
