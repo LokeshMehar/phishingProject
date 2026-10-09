@@ -1,0 +1,22 @@
+[
+  "com", "net", "org", "edu", "gov", "mil", "int",
+  "io", "ai", "co", "me", "app", "dev", "xyz", "top", "info", "biz",
+  "online", "site", "store", "tech", "club", "live", "pro", "vip", "shop", "work", "link",
+  "click", "loan", "fit", "zip", "mov", "icu", "cam", "quest", "sbs", "cfd", "buzz",
+  "co.uk", "org.uk", "gov.uk", "ac.uk", "ltd.uk", "me.uk", "net.uk",
+  "co.in", "org.in", "gov.in", "ac.in", "net.in", "res.in", "gen.in", "ind.in", "firm.in", "nic.in",
+  "com.au", "net.au", "org.au", "edu.au", "gov.au",
+  "com.br", "net.br", "org.br", "gov.br", "edu.br",
+  "co.nz", "net.nz", "org.nz", "govt.nz", "ac.nz",
+  "co.za", "org.za", "gov.za", "ac.za",
+  "co.jp", "ne.jp", "or.jp", "go.jp", "ac.jp", "ad.jp",
+  "com.sg", "edu.sg", "gov.sg", "net.sg", "org.sg",
+  "com.my", "org.my", "gov.my", "edu.my",
+  "com.mx", "org.mx", "gob.mx", "edu.mx",
+  "com.tr", "org.tr", "gov.tr", "edu.tr",
+  "com.hk", "org.hk", "gov.hk", "edu.hk",
+  "com.tw", "org.tw", "gov.tw", "edu.tw",
+  "uk", "in", "au", "br", "nz", "za", "jp", "sg", "my", "mx", "tr", "hk", "tw",
+  "de", "fr", "ca", "it", "es", "nl", "se", "no", "fi", "dk", "ch", "at", "be",
+  "ru", "cn", "kr", "pl", "eu", "us"
+]

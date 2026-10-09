@@ -1,0 +1,17 @@
+{
+  "urgent": [
+    "urgent action required", "immediate action required", "account suspended",
+    "account blocked", "kyc suspended", "kyc expired", "power will be disconnected",
+    "electricity bill overdue", "unauthorized access", "security breach",
+    "verify within 24 hours", "verify immediately", "act now", "temporary restriction",
+    "compromised password", "suspicious login attempt", "final notice", "urgent verify"
+  ],
+  "reward": [
+    "claim reward", "congratulations you won", "lottery winner", "free gift card",
+    "claim your prize", "crypto giveaway", "exclusive cash reward", "transfer pending claim"
+  ],
+  "coercion": [
+    "legal action", "arrest warrant", "tax penalty", "law enforcement",
+    "wire funds immediately", "gift card payment"
+  ]
+}

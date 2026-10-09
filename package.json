@@ -1,0 +1,30 @@
+{
+  "name": "phishguard",
+  "version": "2.0.0",
+  "description": "Deterministic, explainable rule-based phishing detection platform with zero external runtime dependencies.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "evaluate": "node scripts/evaluate.mjs",
+    "serve": "npx --yes serve -p 3000 .",
+    "lint": "npx --yes eslint src/ tests/ scripts/",
+    "format": "npx --yes prettier --check src/ tests/ scripts/ docs/"
+  },
+  "keywords": [
+    "cybersecurity",
+    "phishing-defense",
+    "url-analysis",
+    "threat-intelligence",
+    "rule-engine",
+    "security-operations"
+  ],
+  "author": "PhishGuard Project Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
